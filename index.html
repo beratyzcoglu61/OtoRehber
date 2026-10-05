@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>OtoRehber 2026 – Türkiye'nin Kapsamlı Otomobil, Kronik Sorun & Karşılaştırma Rehberi</title>
+  <meta name="description" content="Eksiksiz marka ve model sınıflandırması, kronik arıza ve motor rehberi, bölgesel kullanışlılık, ekonomi simülatörü, konfor ve hız sıralaması." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Outfit:wght@600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ============ NAVBAR ============ -->
+  <header class="nav" id="nav">
+    <div class="container nav-inner">
+      <a href="#home" class="logo">
+        <span class="logo-mark">◆</span>
+        <span>Oto<b>Rehber</b></span>
+        <span class="badge-ver">2026 Pro</span>
+      </a>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="#katalog">Katalog</a>
+        <a href="#kategoriler">Kategoriler</a>
+        <a href="#markalar">Marka & Model</a>
+        <a href="#kronikler">Kronik Sorunlar</a>
+        <a href="#butce">Bütçe</a>
+        <a href="#bolgesel">Bölgesel</a>
+        <a href="#ekonomi">Ekonomi</a>
+        <a href="#konfor">Konfor</a>
+        <a href="#hiz">Hız & Güç</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button class="nav-btn" id="navFavBtn" title="Favori Araçlarım">
+          ❤️ <span class="hide-mobile">Favoriler</span>
+          <span class="counter-badge" id="favCount">0</span>
+        </button>
+        <button class="nav-btn" id="navAuthBtn">
+          <span id="navAuthLabel">👤 Giriş Yap</span>
+        </button>
+        <button class="burger" id="burger" aria-label="Menü">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="home">
+    <div class="hero-glow"></div>
+    <div class="container hero-grid">
+      <div>
+        <div class="pill-group">
+          <span class="pill">🚗 2026 Türkiye Güncel Otomobil Rehberi</span>
+          <span class="pill pill-accent">⚠️ Gerçek Kronik Sorun & Usta Analizleri</span>
+        </div>
+        <h1>Sana en uygun aracı <span class="grad">eksiksiz verilerle</span> keşfet.</h1>
+        <p class="lead">
+          Türkiye pazarındaki bütün popüler otomobiller; <b>kronik arızaları</b>, <b>yıldız özellikleri</b>, 
+          <b>gerçek fotoğrafları</b>, bütçe bantları, Türkiye'nin 7 bölgesine uyumluluk analizleri ve 
+          yıllık gerçek sahip olma maliyetiyle karşınızda.
+        </p>
+        <div class="hero-stats" id="heroStats"></div>
+      </div>
+
+      <form class="finder card" id="finder">
+        <div class="finder-header">
+          <h3>⚡ Akıllı Araç Tavsiye Asistanı</h3>
+          <p class="muted-sm">Bütçenize, yaşadığınız bölgeye ve önceliğinize göre en iyi 4 aracı anında bulun.</p>
+        </div>
+        <label>Maksimum Bütçeniz
+          <select id="fBudget"></select>
+        </label>
+        <label>Yaşadığınız Bölge
+          <select id="fRegion"></select>
+        </label>
+        <label>Temel Önceliğiniz
+          <select id="fPriority">
+            <option value="eco">💰 Düşük Yakıt & Ucuz Bakım (Ekonomi)</option>
+            <option value="reliable">🛡️ Sıfır Sorun & Düşük Kronik Riski (Sorunsuzluk)</option>
+            <option value="comfort">🛋️ Üst Düzey Konfor & Sessiz Kabin</option>
+            <option value="speed">🏁 Yüksek Hız, İvmelenme & Güç (0-100)</option>
+            <option value="family">👨‍👩‍👧 Geniş Aile & Devasa Bagaj</option>
+          </select>
+        </label>
+        <button class="btn btn-primary" type="submit">En Uygun Araçları Bul</button>
+        <div id="finderResult" class="finder-result"></div>
+      </form>
+    </div>
+  </section>
+
+  <!-- ============ KATALOG ============ -->
+  <section class="section" id="katalog">
+    <div class="container">
+      <div class="section-head-flex">
+        <div class="section-head">
+          <h2>Kapsamlı Araç Kataloğu</h2>
+          <p>
+            Her aracı gerçek fotoğrafları, teknik özellikleri, <b>kronik arıza uyarıları</b> ve 
+            <b>öne çıkan iyi yönleriyle</b> inceleyin. Kartlardaki ⚖️ ikonuna tıklayarak karşılaştırma listesine ekleyin.
+          </p>
+        </div>
+        <div class="quick-pills">
+          <button class="filter-pill" id="pillFavOnly">❤️ Sadece Favorilerim</button>
+          <button class="filter-pill" id="pillHybridEV">⚡ Hibrit & Elektrikli</button>
+          <button class="filter-pill" id="pillAWD">🏔️ 4x4 / AWD Araziler</button>
+          <button class="filter-pill" id="pillLowRisk">🛡️ Düşük Kronik Riski</button>
+        </div>
+      </div>
+
+      <!-- FİLTRELER -->
+      <div class="filters card">
+        <div class="filter-search-box">
+          <input type="search" id="qSearch" placeholder="🔍 Marka, model, motor veya donanım ara... (Örn: Egea, Corolla, 320i)" />
+        </div>
+        <select id="qBrand"><option value="">Tüm Markalar</option></select>
+        <select id="qCat"><option value="">Tüm Kasa Tipleri</option></select>
+        <select id="qFuel"><option value="">Tüm Yakıt Tipleri</option></select>
+        <select id="qBudget"><option value="">Tüm Bütçeler</option></select>
+        <select id="qDrive">
+          <option value="">Tüm Çekiş Tipleri</option>
+          <option value="FWD">Önden Çekiş</option>
+          <option value="RWD">Arkadan İtiş</option>
+          <option value="AWD">AWD / 4x4 Dört Çeker</option>
+        </select>
+        <select id="qTrans">
+          <option value="">Tüm Vitesler</option>
+          <option value="Otomatik">Sadece Otomatik</option>
+          <option value="Manuel">Sadece Manuel</option>
+        </select>
+        <select id="qChronic">
+          <option value="">Kronik Sorun Filtresi (Tümü)</option>
+          <option value="low">🛡️ Düşük Risk / Sorunsuz Modeller</option>
+          <option value="warn">⚠️ Kronik Uyarısı Olan Modeller</option>
+        </select>
+        <select id="qSort">
+          <option value="price-asc">Fiyat (En Düşük)</option>
+          <option value="price-desc">Fiyat (En Yüksek)</option>
+          <option value="eco">En Ekonomik (Düşük Yıllık Masraf)</option>
+          <option value="comfort">En Konforlu (10 Puan Üzerinden)</option>
+          <option value="speed">En Hızlı (0-100 km/s)</option>
+          <option value="hp">En Güçlü Motor (Beygir - HP)</option>
+          <option value="name">İsim (A'dan Z'ye)</option>
+        </select>
+        <button class="btn btn-ghost" id="qReset" type="button">Filtreleri Temizle</button>
+      </div>
+
+      <div class="catalog-status">
+        <span class="muted" id="resultCount">Araçlar yükleniyor...</span>
+        <div class="view-toggles">
+          <span class="legend-item"><span class="legend-dot" style="background:#22c55e"></span> Giriş / Ekonomik</span>
+          <span class="legend-item"><span class="legend-dot" style="background:#eab308"></span> Orta Segment</span>
+          <span class="legend-item"><span class="legend-dot" style="background:#f97316"></span> Premium</span>
+          <span class="legend-item"><span class="legend-dot" style="background:#ef4444"></span> Lüks & Egzotik</span>
+        </div>
+      </div>
+
+      <div class="grid cars" id="catalogGrid"></div>
+    </div>
+  </section>
+
+  <!-- ============ KATEGORİLER ============ -->
+  <section class="section alt" id="kategoriler">
+    <div class="container">
+      <div class="section-head">
+        <h2>Kasa Tipine Göre Sınıflandırma</h2>
+        <p>Her kasa tipinin kullanım amacını, avantajlarını ve bütçe aralıklarını keşfedin. İlgili kategoriye tıklayarak katalogda filtreleyin.</p>
+      </div>
+      <div class="grid cats" id="catGrid"></div>
+    </div>
+  </section>
+
+  <!-- ============ MARKALAR ============ -->
+  <section class="section" id="markalar">
+    <div class="container">
+      <div class="section-head">
+        <h2>Marka ve Model Sınıflandırması</h2>
+        <p>
+          Bütçe, ana akım, premium, lüks ve egzotik otomobil üreticileri. Bir markaya tıklayarak 
+          o markanın tüm modellerini, fiyatlarını, motor seçeneklerini ve kronik karakteristiğini listeleyin.
+        </p>
+      </div>
+      <div class="tabs" id="tierTabs"></div>
+      <div class="grid brands" id="brandGrid"></div>
+      <div id="brandDetail" class="brand-detail"></div>
+    </div>
+  </section>
+
+  <!-- ============ KRONİK SORUNLAR REHBERİ ============ -->
+  <section class="section alt" id="kronikler">
+    <div class="container">
+      <div class="section-head">
+        <h2>⚠️ Türkiye'de En Çok Bilinen Kronik Arızalar Ansiklopedisi</h2>
+        <p>
+          Otomobil alırken sanayi ustalarının ve ekspertizlerin baktığı en kritik mekanik, şanzıman ve motor kronikleri.
+          Hangi araba neden arıza verir, tamir masrafı nedir, satın alırken nelere dikkat edilmelidir?
+        </p>
+      </div>
+      <div class="chronic-grid" id="chronicGrid"></div>
+    </div>
+  </section>
+
+  <!-- ============ BÜTÇE ============ -->
+  <section class="section" id="butce">
+    <div class="container">
+      <div class="section-head">
+        <h2>Bütçe Sınıflandırması & Fiyat Bantları</h2>
+        <p>
+          0 TL'den 40 Mn ₺ üzerine 6 farklı bütçe segmenti. Her bütçenin en ekonomik, 
+          en konforlu ve en performanslı yıldız seçimleri işaretlenmiştir.
+        </p>
+      </div>
+      <div class="budget-bar" id="budgetBar"></div>
+      <div id="budgetList"></div>
+    </div>
+  </section>
+
+  <!-- ============ BÖLGESEL ============ -->
+  <section class="section alt" id="bolgesel">
+    <div class="container">
+      <div class="section-head">
+        <h2>Bölgesel Kullanışlılık: Hangi Bölgede Hangi Araba İdeal?</h2>
+        <p>
+          Türkiye'nin 7 coğrafi bölgesinin iklim, yol, rakım ve trafik dinamiklerine göre araçların uygunluk analizi.
+          İstanbul trafiğinde hibrit, Doğu'nun sert kışında 4x4 dizel, Ege sahillerinde crossover neden öne çıkar?
+        </p>
+      </div>
+      <div class="tabs" id="regionTabs"></div>
+      <div class="region-panel" id="regionPanel"></div>
+    </div>
+  </section>
+
+  <!-- ============ EKONOMİ ============ -->
+  <section class="section" id="ekonomi">
+    <div class="container">
+      <div class="section-head">
+        <h2>Ekonomik Açıdan Öne Çıkanlar & Yıllık Maliyet Simülatörü</h2>
+        <p>
+          Sadece satın alma fiyatı değil; yıllık yakıt tüketimi, periyodik bakım masrafları ve Türkiye ikinci el değer kaybı 
+          hesaplanarak gerçek "Toplam Sahip Olma Maliyeti" (TCO) çıkarılır. Kendi kilometre ve yakıt fiyatlarınızı girin.
+        </p>
+      </div>
+      <div class="card eco-inputs">
+        <label>Yıllık Yapılan Km 
+          <input type="number" id="eKm" value="15000" step="1000" min="1000" />
+        </label>
+        <label>Benzin Fiyatı (TL/L) 
+          <input type="number" id="eGas" value="52" step="0.5" />
+        </label>
+        <label>Dizel Fiyatı (TL/L) 
+          <input type="number" id="eDiesel" value="54" step="0.5" />
+        </label>
+        <label>Elektrik (TL/kWh) 
+          <input type="number" id="eElec" value="7" step="0.5" />
+        </label>
+        <label>Maksimum Bütçeniz
+          <select id="eBudget"></select>
+        </label>
+      </div>
+      <div class="eco-layout">
+        <div class="card">
+          <h3>🏆 Yıllık En Düşük Masraflı Araçlar</h3>
+          <div id="ecoTable"></div>
+        </div>
+        <div>
+          <div class="card class-card">
+            <h3>Sınıf ve Yakıt Bazında Maliyet Kıyası</h3>
+            <div id="ecoClasses"></div>
+          </div>
+          <div class="card tips">
+            <h3>💡 Otomobil Ekonomisi İpuçları</h3>
+            <ul>
+              <li><b>Şehir içi dur-kalk:</b> Hibrit ve elektrikli araçlar fren enerjisini geri kazanarak benzinli araçlara göre %50-70 tasarruf sağlar.</li>
+              <li><b>Yılda 20.000 km+ otoyol:</b> Dizel veya aerodinamik C/D segmenti sedanlar öne çıkar; yüksek SUV'lar otoyolda rüzgâr direnciyle çok yakar.</li>
+              <li><b>Evde Gece Şarjı:</b> Elektrikli araç ev elektriğiyle şarj edildiğinde km başına yakıt gideri benzinlinin neredeyse 1/5'ine düşer.</li>
+              <li><b>İkinci El Değer Koruması:</b> Toyota, Fiat Egea, VW Polo/Golf ve Renault Clio Türkiye pazarında altın gibi anında nakde döner.</li>
+              <li><b>Yedek Parça ve Usta Ağı:</b> Yerli üretim (Egea, Clio, i20, Corolla) araçların kaporta ve mekanik parçaları her sanayide bulunur ve çok ucuzdur.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ KONFOR ============ -->
+  <section class="section alt" id="konfor">
+    <div class="container">
+      <div class="section-head">
+        <h2>Konfor Açısından En İyi Arabalar</h2>
+        <p>
+          Süspansiyon darbe emiş kabiliyeti, kabin ses yalıtımı (rüzgâr ve lastik sesi), 
+          arka koltuk diz mesafesi ve koltuk ergonomisi kriterlerine göre sınıflandırılmış en konforlu modeller.
+        </p>
+      </div>
+      <div class="three-col" id="comfortCols"></div>
+    </div>
+  </section>
+
+  <!-- ============ HIZ VE PERFORMANS ============ -->
+  <section class="section" id="hiz">
+    <div class="container">
+      <div class="section-head">
+        <h2>Hız ve Performans Tutkunları İçin: Güç & İvmelenme</h2>
+        <p>
+          0-100 km/s kalkış hızlanması, motor beygir gücü (HP), tork ve maksimum sürat verileri. 
+          Hem uygun bütçeli çevik hot-hatch'ler hem pist canavarı süper sporlar.
+        </p>
+      </div>
+      <div class="three-col" id="speedCols"></div>
+      <div class="card" style="margin-top:24px">
+        <h3>🏁 0-100 km/s Hızlanma Sıralaması (Türkiye'nin En Hızlıları)</h3>
+        <div id="speedChart" class="bar-chart"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <div class="logo"><span class="logo-mark">◆</span> Oto<b>Rehber</b></div>
+        <p class="muted">
+          Türkiye'nin en kapsamlı otomobil bilgi, teknik veri, kronik arıza ve karşılaştırma platformu. 
+          Veriler otomotiv bültenleri, resmi distribütörler ve kullanıcı geri bildirimleriyle hazırlanmıştır.
+        </p>
+      </div>
+      <div class="footer-links">
+        <h4>Hızlı Menü</h4>
+        <a href="#katalog">Araç Kataloğu</a>
+        <a href="#kronikler">Kronik Sorunlar</a>
+        <a href="#bolgesel">Bölgesel Rehber</a>
+        <a href="#ekonomi">Ekonomi Simülatörü</a>
+        <a href="#hiz">Performans & Hız</a>
+      </div>
+      <div class="footer-links">
+        <h4>Kullanıcı İşlemleri</h4>
+        <a href="javascript:void(0)" onclick="openAuthModal('login')">Giriş Yap</a>
+        <a href="javascript:void(0)" onclick="openAuthModal('register')">Kayıt Ol</a>
+        <a href="javascript:void(0)" onclick="openFavoritesModal()">Kayıtlı Favorilerim</a>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>© 2026 OtoRehber Platformu — Tüm hakları saklıdır. Fiyat ve teknik veriler bilgilendirme amaçlıdır.</p>
+    </div>
+  </footer>
+
+  <!-- ============ KARŞILAŞTIRMA ÇUBUĞU ============ -->
+  <div class="compare-bar" id="compareBar">
+    <div class="container compare-inner">
+      <div class="compare-left">
+        <span class="compare-title">⚖️ Karşılaştırma Listesi:</span>
+        <div id="compareItems" class="compare-items"></div>
+      </div>
+      <div class="compare-btns">
+        <button class="btn btn-ghost" id="compareClear">Temizle</button>
+        <button class="btn btn-primary" id="compareOpen">Karşılaştır</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============ DETAY & KARŞILAŞTIRMA MODALI ============ -->
+  <div class="modal" id="modal" role="dialog" aria-modal="true">
+    <div class="modal-box" id="modalBox">
+      <button class="modal-close" id="modalClose" aria-label="Kapat">✕</button>
+      <div id="modalContent"></div>
+    </div>
+  </div>
+
+  <!-- ============ KULLANICI GİRİŞ / KAYIT / PROFİL MODALI ============ -->
+  <div class="modal" id="authModal" role="dialog" aria-modal="true">
+    <div class="modal-box auth-modal-box">
+      <button class="modal-close" id="authModalClose" aria-label="Kapat">✕</button>
+      <div class="auth-tabs" id="authTabs">
+        <button class="auth-tab active" data-tab="login">Giriş Yap</button>
+        <button class="auth-tab" data-tab="register">Kayıt Ol</button>
+        <button class="auth-tab" data-tab="profile" id="tabProfileBtn" style="display:none">Profilim</button>
+      </div>
+      <div id="authContent"></div>
+    </div>
+  </div>
+
+  <!-- ============ FAVORİLER MODALI ============ -->
+  <div class="modal" id="favModal" role="dialog" aria-modal="true">
+    <div class="modal-box fav-modal-box">
+      <button class="modal-close" id="favModalClose" aria-label="Kapat">✕</button>
+      <div class="modal-head-simple">
+        <h2>❤️ Favori Araçlarım</h2>
+        <p class="muted">Kaydettiğiniz araçları buradan hızlıca inceleyebilir veya karşılaştırmaya ekleyebilirsiniz.</p>
+      </div>
+      <div id="favModalList" class="fav-list-grid"></div>
+    </div>
+  </div>
+
+  <!-- ============ BİLDİRİM TOAST ============ -->
+  <div class="toast" id="toast"></div>
+
+  <!-- SCRIPT DOSYALARI -->
+  <script src="js/data.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
