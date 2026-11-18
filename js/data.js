@@ -312,7 +312,7 @@ const CARS = [
     brand: "Fiat", model: "Egea Sedan 1.4 Fire", cat: "Sedan", segment: "C Segment", fuel: "Benzin",
     price: 1250000, hp: 95, torque: 127, acc: 11.5, top: 186, cons: 6.4, drive: "FWD", trans: "Manuel",
     clr: 150, trunk: 520, seats: 5, comfort: 6, maint: 1, resale: 5,
-    img: "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?auto=format&fit=crop&w=900&q=80",
+    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Fiat_Tipo_Sedan_Facelift_Leonberg_2022_1X7A0412.jpg/960px-Fiat_Tipo_Sedan_Facelift_Leonberg_2022_1X7A0412.jpg",
     issues: ["egea_oil_fire", "fiat_rattle"],
     weaknesses: [
       "120 km/s üzerinde kabin içine giren belirgin rüzgâr ve tekerlek yuvarlanma sesi",
@@ -328,7 +328,7 @@ const CARS = [
     brand: "Fiat", model: "Egea Cross 1.5 Hibrit", cat: "Crossover", segment: "C Segment", fuel: "Hibrit",
     price: 1480000, hp: 130, torque: 240, acc: 10.4, top: 190, cons: 5.0, drive: "FWD", trans: "Otomatik",
     clr: 190, trunk: 440, seats: 5, comfort: 7, maint: 1, resale: 5,
-    img: "https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2?auto=format&fit=crop&w=900&q=80",
+    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Fiat_Tipo_Cross_1X7A0340.jpg/960px-Fiat_Tipo_Cross_1X7A0340.jpg",
     issues: ["fiat_rattle"],
     weaknesses: [
       "7 ileri çift kavramalı şanzıman 1'den 2'ye geçerken trafikte hafif tereddüt ve silkeleme yapabilir",
@@ -343,7 +343,7 @@ const CARS = [
     brand: "Fiat", model: "Doblo Combi 1.5 BlueHDi", cat: "Hafif Ticari", segment: "K-Hafif Ticari", fuel: "Dizel",
     price: 1380000, hp: 100, torque: 250, acc: 13.0, top: 172, cons: 5.3, drive: "FWD", trans: "Manuel",
     clr: 175, trunk: 850, seats: 5, comfort: 6, maint: 1, resale: 5,
-    img: "https://images.unsplash.com/photo-1588644525273-f37b60d78512?auto=format&fit=crop&w=900&q=80",
+    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Fiat_Dobl%C3%B2_Mk3_1X7A7462.jpg/960px-Fiat_Dobl%C3%B2_Mk3_1X7A7462.jpg",
     issues: ["adblue_crystal", "dpf_clog"],
     weaknesses: [
       "AdBlue kristalleşmesi nedeniyle depo ve pompa arıza riski",
@@ -358,7 +358,7 @@ const CARS = [
     brand: "Renault", model: "Clio 1.0 TCe Otomatik", cat: "Hatchback", segment: "B Segment", fuel: "Benzin",
     price: 1450000, hp: 90, torque: 160, acc: 12.2, top: 180, cons: 5.4, drive: "FWD", trans: "Otomatik",
     clr: 145, trunk: 391, seats: 5, comfort: 7, maint: 1, resale: 5,
-    img: "https://images.unsplash.com/photo-1541899481282-d53bffe3c35d?auto=format&fit=crop&w=900&q=80",
+    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Renault_Clio_%28V%2C_Facelift%29_%E2%80%93_f_02092025.jpg/960px-Renault_Clio_%28V%2C_Facelift%29_%E2%80%93_f_02092025.jpg",
     issues: ["edc_shudder"],
     weaknesses: [
       "Arka koltuk diz mesafesi uzun boylu yolcular için sınıfında dardır",
@@ -373,7 +373,7 @@ const CARS = [
     brand: "Dacia", model: "Sandero Stepway 1.0 TCe ECO-G", cat: "Hatchback", segment: "B Segment", fuel: "Benzin",
     price: 1190000, hp: 100, torque: 170, acc: 11.8, top: 177, cons: 6.2, drive: "FWD", trans: "Manuel",
     clr: 201, trunk: 410, seats: 5, comfort: 5, maint: 1, resale: 4,
-    img: "https://images.unsplash.com/photo-1502877338535-766e1452684a?auto=format&fit=crop&w=900&q=80",
+    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/2023_Dacia_Sandero_III_DSC_6012.jpg/960px-2023_Dacia_Sandero_III_DSC_6012.jpg",
     issues: ["fiat_rattle"],
     weaknesses: [
       "110 km/s üzerinde kabin içine giren yüksek rüzgâr ve motor sesi (ses yalıtımı zayıftır)",
@@ -388,7 +388,7 @@ const CARS = [
     brand: "Hyundai", model: "i20 1.4 MPI Otomatik", cat: "Hatchback", segment: "B Segment", fuel: "Benzin",
     price: 1390000, hp: 100, torque: 134, acc: 12.4, top: 176, cons: 6.5, drive: "FWD", trans: "Otomatik",
     clr: 140, trunk: 352, seats: 5, comfort: 7, maint: 1, resale: 4,
-    img: "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=900&q=80",
+    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Hyundai_i20_%28III%2C_Facelift%29_%E2%80%93_f_11102025.jpg/960px-Hyundai_i20_%28III%2C_Facelift%29_%E2%80%93_f_11102025.jpg",
     issues: ["fiat_rattle"],
     weaknesses: [
       "Atmosferik 1.4 MPI motor ara hızlanmalarda ağırkanlıdır; yokuşlarda devir yükseltmek gerekir",
@@ -403,7 +403,7 @@ const CARS = [
     brand: "Citroën", model: "Berlingo 1.5 BlueHDi", cat: "Hafif Ticari", segment: "K-Hafif Ticari", fuel: "Dizel",
     price: 1490000, hp: 100, torque: 250, acc: 12.5, top: 175, cons: 5.2, drive: "FWD", trans: "Manuel",
     clr: 180, trunk: 775, seats: 5, comfort: 7, maint: 2, resale: 4,
-    img: "https://images.unsplash.com/photo-1517524008697-84bbe3c3fd98?auto=format&fit=crop&w=900&q=80",
+    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Citro%C3%ABn_Berlingo_XL_BlueHDi_130_EAT8_Shine_XTR_%28III%29_%E2%80%93_f_02012021.jpg/960px-Citro%C3%ABn_Berlingo_XL_BlueHDi_130_EAT8_Shine_XTR_%28III%29_%E2%80%93_f_02012021.jpg",
     issues: ["adblue_crystal", "dpf_clog"],
     weaknesses: [
       "AdBlue deposu kristalleşme ve ısıtıcı rezistansı arızası (serviste depo değişimi gerekebilir)",
@@ -418,7 +418,7 @@ const CARS = [
     brand: "Hyundai", model: "i10 1.2 MPI", cat: "Hatchback", segment: "A Segment", fuel: "Benzin",
     price: 1120000, hp: 84, torque: 118, acc: 13.8, top: 171, cons: 5.1, drive: "FWD", trans: "Otomatik",
     clr: 140, trunk: 252, seats: 5, comfort: 6, maint: 1, resale: 4,
-    img: "https://images.unsplash.com/photo-1567808291548-fc3ee04dbcf0?auto=format&fit=crop&w=900&q=80",
+    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Hyundai_i10_1.0_Intro_%28III%29_%E2%80%93_f_03012021.jpg/960px-Hyundai_i10_1.0_Intro_%28III%29_%E2%80%93_f_03012021.jpg",
     issues: ["fiat_rattle"],
     weaknesses: [
       "252 litrelik küçük bagaj (büyük bebek arabası veya 2 büyük valiz sığmaz)",
@@ -435,7 +435,7 @@ const CARS = [
     brand: "Toyota", model: "Corolla 1.8 Hibrit Dream", cat: "Sedan", segment: "C Segment", fuel: "Hibrit",
     price: 2050000, hp: 140, torque: 185, acc: 9.3, top: 180, cons: 4.2, drive: "FWD", trans: "Otomatik",
     clr: 135, trunk: 471, seats: 5, comfort: 8, maint: 1, resale: 5,
-    img: "https://images.unsplash.com/photo-1621007947382-bb3c3994e3fb?auto=format&fit=crop&w=900&q=80",
+    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Toyota_Corolla_Hybrid_Sedan%2C_GIMS_2019%2C_Le_Grand-Saconnex_%28GIMS1338%29.jpg/960px-Toyota_Corolla_Hybrid_Sedan%2C_GIMS_2019%2C_Le_Grand-Saconnex_%28GIMS1338%29.jpg",
     issues: ["toyota_cvt_drone"],
     weaknesses: [
       "Ani sollamalarda ve sert gazlamalarda e-CVT şanzımanın motor devrini 5000 RPM'e sabitleyip bağırması",
@@ -451,7 +451,7 @@ const CARS = [
     brand: "Renault", model: "Megane Sedan 1.3 TCe EDC", cat: "Sedan", segment: "C Segment", fuel: "Benzin",
     price: 1750000, hp: 140, torque: 240, acc: 9.5, top: 205, cons: 5.9, drive: "FWD", trans: "Otomatik",
     clr: 145, trunk: 503, seats: 5, comfort: 8, maint: 2, resale: 5,
-    img: "https://images.unsplash.com/photo-1617814076367-b759c7d7e738?auto=format&fit=crop&w=900&q=80",
+    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Renault_Megane_IV_Sedan_1X7A5847.jpg/960px-Renault_Megane_IV_Sedan_1X7A5847.jpg",
     issues: ["edc_shudder"],
     weaknesses: [
       "EDC kuru çift kavramalı şanzıman yoğun dur-kalk trafikte ısınma uyarısı verebilir",
@@ -466,7 +466,7 @@ const CARS = [
     brand: "Volkswagen", model: "Golf 1.5 eTSI DSG", cat: "Hatchback", segment: "C Segment", fuel: "Hibrit",
     price: 2350000, hp: 150, torque: 250, acc: 8.4, top: 224, cons: 5.4, drive: "FWD", trans: "Otomatik",
     clr: 140, trunk: 381, seats: 5, comfort: 8, maint: 2, resale: 5,
-    img: "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=900&q=80",
+    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/2020_Volkswagen_Golf_Style_1.5_Front.jpg/960px-2020_Volkswagen_Golf_Style_1.5_Front.jpg",
     issues: ["dsg_dq200"],
     weaknesses: [
       "DQ200 kuru kavrama DSG şanzıman dur-kalk trafikte 70-80 bin km sonrası kavrama titremesi yapabilir",
@@ -481,7 +481,7 @@ const CARS = [
     brand: "Volkswagen", model: "Polo 1.0 TSI DSG", cat: "Hatchback", segment: "B Segment", fuel: "Benzin",
     price: 1720000, hp: 95, torque: 175, acc: 10.8, top: 187, cons: 5.3, drive: "FWD", trans: "Otomatik",
     clr: 140, trunk: 351, seats: 5, comfort: 7, maint: 2, resale: 5,
-    img: "https://images.unsplash.com/photo-1619405399517-d7fce0f13302?auto=format&fit=crop&w=900&q=80",
+    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/2018_Volkswagen_Polo_SE_1.0_Front.jpg/960px-2018_Volkswagen_Polo_SE_1.0_Front.jpg",
     issues: ["dsg_dq200"],
     weaknesses: [
       "DSG kuru kavrama şanzıman yoğun trafikte aşınma ve mekatronik arıza riski taşır",
@@ -496,7 +496,7 @@ const CARS = [
     brand: "Dacia", model: "Duster 1.2 TCe 4x4", cat: "SUV", segment: "C-SUV", fuel: "Benzin",
     price: 1780000, hp: 130, torque: 230, acc: 10.8, top: 180, cons: 6.5, drive: "4x4", clr: 217,
     trunk: 472, seats: 5, comfort: 6, maint: 1, resale: 5,
-    img: "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&w=900&q=80",
+    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Dacia_Duster_TCe_130_Extreme_%28III%29_%E2%80%93_f_13102024.jpg/960px-Dacia_Duster_TCe_130_Extreme_%28III%29_%E2%80%93_f_13102024.jpg",
     issues: ["fiat_rattle"],
     weaknesses: [
       "120 km/s üzerinde kabin içine giren bariz rüzgâr ve motor sesi (yalıtım zayıftır)",
@@ -511,7 +511,7 @@ const CARS = [
     brand: "Peugeot", model: "2008 1.2 PureTech GT", cat: "Crossover", segment: "B-SUV", fuel: "Benzin",
     price: 2150000, hp: 130, torque: 230, acc: 9.1, top: 200, cons: 5.9, drive: "FWD", trans: "Otomatik",
     clr: 165, trunk: 434, seats: 5, comfort: 7, maint: 2, resale: 4,
-    img: "https://images.unsplash.com/photo-1563720223185-11003d516935?auto=format&fit=crop&w=900&q=80",
+    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/2023_Peugeot_2008_in_Vertigo_Blue%2C_front_left%2C_06-08-2025.jpg/960px-2023_Peugeot_2008_in_Vertigo_Blue%2C_front_left%2C_06-08-2025.jpg",
     issues: ["puretech_belt"],
     weaknesses: [
       "1.2 PureTech ıslak triger kayışının her bakımda kumpasla ölçülme zorunluluğu (erime ve yağ tıkama riski)",
@@ -526,7 +526,7 @@ const CARS = [
     brand: "Skoda", model: "Octavia 1.5 eTSI", cat: "Sedan", segment: "C Segment", fuel: "Hibrit",
     price: 2390000, hp: 150, torque: 250, acc: 8.5, top: 229, cons: 5.3, drive: "FWD", trans: "Otomatik",
     clr: 143, trunk: 600, seats: 5, comfort: 8, maint: 2, resale: 5,
-    img: "https://images.unsplash.com/photo-1603584173870-7f23fdae1b7a?auto=format&fit=crop&w=900&q=80",
+    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/2024_Skoda_Octavia_110TSI_Select_front.jpg/960px-2024_Skoda_Octavia_110TSI_Select_front.jpg",
     issues: ["dsg_dq200"],
     weaknesses: [
       "Kuru kavrama 7 ileri DSG şanzımanın sıkışık trafikte aşınma ve silkeleme riski",
@@ -541,7 +541,7 @@ const CARS = [
     brand: "Honda", model: "Civic 1.5 VTEC Turbo", cat: "Sedan", segment: "C Segment", fuel: "Benzin",
     price: 2350000, hp: 182, torque: 240, acc: 8.1, top: 215, cons: 6.6, drive: "FWD", trans: "Otomatik",
     clr: 135, trunk: 519, seats: 5, comfort: 8, maint: 2, resale: 5,
-    img: "https://images.unsplash.com/photo-1590362891991-f776e747a588?auto=format&fit=crop&w=900&q=80",
+    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/2022_Honda_Civic_Touring_in_Lunar_Silver_Metallic%2C_Front_Left%2C_05-10-2022.jpg/960px-2022_Honda_Civic_Touring_in_Lunar_Silver_Metallic%2C_Front_Left%2C_05-10-2022.jpg",
     issues: ["honda_oil_dilution", "honda_c_pillar"],
     weaknesses: [
       "FC5 kasalarda arka C sütununda göçük ve dalgalanma şikâyetleri görülmüştür",
@@ -556,7 +556,7 @@ const CARS = [
     brand: "Togg", model: "T10X V2 Uzun Menzil", cat: "SUV", segment: "C-SUV", fuel: "Elektrik",
     price: 2280000, hp: 218, torque: 350, acc: 7.8, top: 185, cons: 16.9, drive: "RWD", clr: 175,
     trunk: 441, seats: 5, comfort: 8, maint: 1, resale: 4, range: 523,
-    img: "https://images.unsplash.com/photo-1617788138017-80ad40651399?auto=format&fit=crop&w=900&q=80",
+    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Togg_T10X_Grey.jpg/960px-Togg_T10X_Grey.jpg",
     issues: ["togg_infotainment", "ev_winter_range"],
     weaknesses: [
       "İlk parti araçlarda multimedya ekranının ara sıra donması ve gecikmesi (OTA ile düzelmektedir)",
@@ -571,7 +571,7 @@ const CARS = [
     brand: "BYD", model: "Atto 3 Design", cat: "SUV", segment: "C-SUV", fuel: "Elektrik",
     price: 1980000, hp: 204, torque: 310, acc: 7.3, top: 160, cons: 15.6, drive: "FWD", clr: 175,
     trunk: 440, seats: 5, comfort: 7, maint: 1, resale: 3, range: 420,
-    img: "https://images.unsplash.com/photo-1580273916550-e323be2ae537?auto=format&fit=crop&w=900&q=80",
+    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/BYD_Atto_3_1X7A6491.jpg/960px-BYD_Atto_3_1X7A6491.jpg",
     issues: ["ev_winter_range"],
     weaknesses: [
       "Maksimum sürat 160 km/s ile elektronik olarak sınırlandırılmıştır",
@@ -586,7 +586,7 @@ const CARS = [
     brand: "Chery", model: "Tiggo 8 Pro Max 1.6 TGDI", cat: "SUV", segment: "D-SUV", fuel: "Benzin",
     price: 2150000, hp: 186, torque: 290, acc: 8.9, top: 200, cons: 8.1, drive: "AWD", clr: 196,
     trunk: 889, seats: 7, comfort: 8, maint: 2, resale: 3,
-    img: "https://images.unsplash.com/photo-1519641471654-76ce0107ad1b?auto=format&fit=crop&w=900&q=80",
+    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Chery_Tiggo_8_Plus_018_%28cropped%29.jpg/960px-Chery_Tiggo_8_Plus_018_%28cropped%29.jpg",
     issues: ["chery_fuel_infotainment"],
     weaknesses: [
       "Şehir içi yoğun trafikte 11 - 12.5 litreye ulaşabilen yüksek yakıt tüketimi",
@@ -601,7 +601,7 @@ const CARS = [
     brand: "MG", model: "MG4 Electric Luxury", cat: "Hatchback", segment: "C Segment", fuel: "Elektrik",
     price: 1850000, hp: 204, torque: 250, acc: 7.7, top: 160, cons: 16.0, drive: "RWD", clr: 150,
     trunk: 363, seats: 5, comfort: 7, maint: 1, resale: 3, range: 435,
-    img: "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?auto=format&fit=crop&w=900&q=80",
+    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/MG4_Electric_%E2%80%93_f_21042025.jpg/960px-MG4_Electric_%E2%80%93_f_21042025.jpg",
     issues: ["ev_winter_range"],
     weaknesses: [
       "İç mekânda sert plastik malzeme yoğunluğu ve sade kapı döşemeleri",
@@ -616,7 +616,7 @@ const CARS = [
     brand: "Suzuki", model: "Jimny 1.5 AllGrip", cat: "Arazi (4x4)", segment: "B-Arazi", fuel: "Benzin",
     price: 2250000, hp: 102, torque: 130, acc: 13.5, top: 145, cons: 7.7, drive: "4x4", clr: 210,
     trunk: 85, seats: 4, comfort: 4, maint: 2, resale: 5,
-    img: "https://images.unsplash.com/photo-1520031441872-265e4ff70366?auto=format&fit=crop&w=900&q=80",
+    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/2019_Suzuki_Jimny_SZ5_4X4_Automatic_1.5.jpg/960px-2019_Suzuki_Jimny_SZ5_4X4_Automatic_1.5.jpg",
     issues: ["fiat_rattle"],
     weaknesses: [
       "Bagaj hacminin neredeyse olmaması (85 litre; koltuklar açıkken valiz sığmaz)",
@@ -633,7 +633,7 @@ const CARS = [
     brand: "Tesla", model: "Model Y Long Range AWD", cat: "SUV", segment: "D-SUV", fuel: "Elektrik",
     price: 3200000, hp: 514, torque: 493, acc: 5.0, top: 217, cons: 16.5, drive: "AWD", clr: 167,
     trunk: 854, seats: 5, comfort: 8, maint: 1, resale: 4, range: 533,
-    img: "https://images.unsplash.com/photo-1560958089-b8a1929cea89?auto=format&fit=crop&w=900&q=80",
+    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Tesla_Model_Y_Premium_%28Facelift%29_%E2%80%93_f_05052026.jpg/960px-Tesla_Model_Y_Premium_%28Facelift%29_%E2%80%93_f_05052026.jpg",
     issues: ["tesla_panel_gap", "ev_winter_range"],
     weaknesses: [
       "Sert süspansiyon geometrisi sebebiyle Türkiye'nin yamalı asfalt ve kasislerinde darbe vuruntusu",
@@ -648,7 +648,7 @@ const CARS = [
     brand: "Skoda", model: "Superb 1.5 eTSI L&K Crystal", cat: "Sedan", segment: "D Segment", fuel: "Hibrit",
     price: 3650000, hp: 150, torque: 250, acc: 9.0, top: 225, cons: 5.8, drive: "FWD", trans: "Otomatik",
     clr: 142, trunk: 645, seats: 5, comfort: 10, maint: 2, resale: 5,
-    img: "https://images.unsplash.com/photo-1550355291-bbee04a92027?auto=format&fit=crop&w=900&q=80",
+    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Skoda_Superb_L%26K_%28IV%29_%E2%80%93_f_12042026.jpg/960px-Skoda_Superb_L%26K_%28IV%29_%E2%80%93_f_12042026.jpg",
     issues: ["dsg_dq200"],
     weaknesses: [
       "DQ200 kuru kavrama DSG şanzımanın dur-kalk trafikte kavrama aşınması hassasiyeti",
@@ -663,7 +663,7 @@ const CARS = [
     brand: "Volkswagen", model: "Passat Variant 1.5 eTSI", cat: "Station Wagon", segment: "D Segment", fuel: "Hibrit",
     price: 3850000, hp: 150, torque: 250, acc: 8.9, top: 222, cons: 5.5, drive: "FWD", trans: "Otomatik",
     clr: 145, trunk: 690, seats: 5, comfort: 9, maint: 3, resale: 5,
-    img: "https://images.unsplash.com/photo-1606016159991-dfe4f2746ad5?auto=format&fit=crop&w=900&q=80",
+    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/VW_Passat_Variant_Elegance_%28B9%29_%E2%80%93_f_18052025.jpg/960px-VW_Passat_Variant_Elegance_%28B9%29_%E2%80%93_f_18052025.jpg",
     issues: ["dsg_dq200"],
     weaknesses: [
       "Türkiye pazarında geleneksel sedan algısının güçlü olması sebebiyle Variant (station wagon) satışının sedana göre daha niş olması",
@@ -678,7 +678,7 @@ const CARS = [
     brand: "Volkswagen", model: "Tiguan 1.5 eTSI R-Line", cat: "SUV", segment: "C-SUV", fuel: "Hibrit",
     price: 3600000, hp: 150, torque: 250, acc: 9.1, top: 208, cons: 6.7, drive: "FWD", trans: "Otomatik",
     clr: 180, trunk: 652, seats: 5, comfort: 8, maint: 3, resale: 5,
-    img: "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?auto=format&fit=crop&w=900&q=80",
+    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Volkswagen_Tiguan_III_IMG_8823_%28cropped%29.jpg/960px-Volkswagen_Tiguan_III_IMG_8823_%28cropped%29.jpg",
     issues: ["dsg_dq200"],
     weaknesses: [
       "Fiyatının D segmenti araçlarla yarışır seviyede olması",
@@ -693,7 +693,7 @@ const CARS = [
     brand: "Hyundai", model: "Tucson 1.6 T-GDI Hibrit 4x4", cat: "SUV", segment: "C-SUV", fuel: "Hibrit",
     price: 3100000, hp: 230, torque: 350, acc: 8.0, top: 193, cons: 5.9, drive: "AWD", clr: 175,
     trunk: 616, seats: 5, comfort: 8, maint: 2, resale: 4,
-    img: "https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?auto=format&fit=crop&w=900&q=80",
+    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Hyundai_Tucson_%28NX4%29_1X7A0424.jpg/960px-Hyundai_Tucson_%28NX4%29_1X7A0424.jpg",
     issues: ["hyundai_kia_dct"],
     weaknesses: [
       "7-DCT kuru kavrama dik yokuşlarda dur-kalk yaparken şanzıman ısınma ikazı verebilir",
@@ -708,7 +708,7 @@ const CARS = [
     brand: "Kia", model: "Sportage 1.6 T-GDI Hibrit 4x4", cat: "SUV", segment: "C-SUV", fuel: "Hibrit",
     price: 3100000, hp: 230, torque: 350, acc: 8.0, top: 193, cons: 5.9, drive: "AWD", clr: 175,
     trunk: 587, seats: 5, comfort: 8, maint: 2, resale: 4,
-    img: "https://images.unsplash.com/photo-1541348263662-e0c8de4259ba?auto=format&fit=crop&w=900&q=80",
+    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Kia_Sportage_%28NQ5%29_1X7A0326.jpg/960px-Kia_Sportage_%28NQ5%29_1X7A0326.jpg",
     issues: ["hyundai_kia_dct"],
     weaknesses: [
       "Şanzıman dik rampalarda ve dur-kalkta ısınma ikazı çıkartabilir",
@@ -723,7 +723,7 @@ const CARS = [
     brand: "Peugeot", model: "3008 1.2 Hibrit GT", cat: "SUV", segment: "C-SUV", fuel: "Hibrit",
     price: 3150000, hp: 136, torque: 230, acc: 10.0, top: 201, cons: 5.4, drive: "FWD", trans: "Otomatik",
     clr: 185, trunk: 588, seats: 5, comfort: 8, maint: 2, resale: 4,
-    img: "https://images.unsplash.com/photo-1570125909232-eb263c188f7e?auto=format&fit=crop&w=900&q=80",
+    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Peugeot_e-3008_Automesse_Ludwigsburg_2024_IMG_1537.jpg/960px-Peugeot_e-3008_Automesse_Ludwigsburg_2024_IMG_1537.jpg",
     issues: ["fiat_rattle"],
     weaknesses: [
       "Yeni fastback tavan eğimi sebebiyle arka koltuk baş mesafesi önceki kasaya göre biraz daha alçaktır",
@@ -738,7 +738,7 @@ const CARS = [
     brand: "Toyota", model: "RAV4 2.5 Hibrit AWD Passion X-Pack", cat: "SUV", segment: "D-SUV", fuel: "Hibrit",
     price: 3950000, hp: 222, torque: 221, acc: 8.1, top: 180, cons: 5.7, drive: "AWD", clr: 195,
     trunk: 580, seats: 5, comfort: 9, maint: 2, resale: 5,
-    img: "https://images.unsplash.com/photo-1543465077-db45d34b88a5?auto=format&fit=crop&w=900&q=80",
+    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/2024_Toyota_RAV4_Prime_XSE_Premium_in_Silver_Sky_with_Midnight_Black_roof%2C_front_left.jpg/960px-2024_Toyota_RAV4_Prime_XSE_Premium_in_Silver_Sky_with_Midnight_Black_roof%2C_front_left.jpg",
     issues: ["toyota_cvt_drone"],
     weaknesses: [
       "2.5 litre motor hacmi sebebiyle Türkiye'de yıllık Motorlu Taşıtlar Vergisi (MTV) çok yüksektir",
@@ -753,7 +753,7 @@ const CARS = [
     brand: "Ford", model: "Ranger Wildtrak 2.0 EcoBlue 4x4", cat: "Pick-up", segment: "Pick-up", fuel: "Dizel",
     price: 3100000, hp: 205, torque: 500, acc: 9.8, top: 180, cons: 8.6, drive: "4x4", clr: 235,
     trunk: 1200, seats: 5, comfort: 7, maint: 2, resale: 5,
-    img: "https://images.unsplash.com/photo-1559416523-140ddc3d238c?auto=format&fit=crop&w=900&q=80",
+    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Ford_Ranger_2.0_EcoBlue_4WD_Wildtrak_X_%28IV%29_%E2%80%93_f_12102024.jpg/960px-Ford_Ranger_2.0_EcoBlue_4WD_Wildtrak_X_%28IV%29_%E2%80%93_f_12102024.jpg",
     issues: ["adblue_crystal", "dpf_clog"],
     weaknesses: [
       "Kamyonet ruhsatı sebebiyle her yıl muayene, 1. köprü geçiş yasağı ve hız sınırları",
@@ -768,7 +768,7 @@ const CARS = [
     brand: "Toyota", model: "Hilux 2.8 D-4D Invincible 4x4", cat: "Pick-up", segment: "Pick-up", fuel: "Dizel",
     price: 3050000, hp: 204, torque: 500, acc: 10.7, top: 175, cons: 8.9, drive: "4x4", clr: 286,
     trunk: 1100, seats: 5, comfort: 6, maint: 2, resale: 5,
-    img: "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&w=900&q=80",
+    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/2016_Toyota_HiLux_Invincible_D-4D_4WD_2.4_Front.jpg/960px-2016_Toyota_HiLux_Invincible_D-4D_4WD_2.4_Front.jpg",
     issues: ["dpf_clog"],
     weaknesses: [
       "Arka yaprak makaslı süspansiyon boşken kasislerde arka tarafı zıplatır ve konforu düşürür",
@@ -783,7 +783,7 @@ const CARS = [
     brand: "Cupra", model: "Formentor VZ 2.0 TSI 310 HP 4Drive", cat: "Crossover", segment: "C-SUV", fuel: "Benzin",
     price: 4100000, hp: 310, torque: 400, acc: 4.9, top: 250, cons: 8.7, drive: "AWD", clr: 155,
     trunk: 420, seats: 5, comfort: 7, maint: 3, resale: 4,
-    img: "https://images.unsplash.com/photo-1616422285623-13ff0162193c?auto=format&fit=crop&w=900&q=80",
+    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Cupra_Formentor_IMG_9668.jpg/960px-Cupra_Formentor_IMG_9668.jpg",
     issues: ["dsg_wet"],
     weaknesses: [
       "Şehir içi agresif kullanımda yakıt tüketimi 11 - 13 litrelere çok çabuk çıkar",
@@ -798,7 +798,7 @@ const CARS = [
     brand: "Volkswagen", model: "Golf GTI 2.0 TSI", cat: "Hatchback", segment: "C Segment", fuel: "Benzin",
     price: 3950000, hp: 265, torque: 370, acc: 5.9, top: 250, cons: 7.2, drive: "FWD", trans: "Otomatik",
     clr: 135, trunk: 374, seats: 5, comfort: 7, maint: 3, resale: 5,
-    img: "https://images.unsplash.com/photo-1541899481282-d53bffe3c35d?auto=format&fit=crop&w=900&q=80",
+    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Volkswagen_Golf_GTI_Mk8_Dolphin_Gray_Metallic_%283%29.jpg/960px-Volkswagen_Golf_GTI_Mk8_Dolphin_Gray_Metallic_%283%29.jpg",
     issues: ["dsg_wet"],
     weaknesses: [
       "Önden çekişli olması sebebiyle ıslak zeminde ilk kalkışta patinaja düşme eğilimi",
@@ -815,7 +815,7 @@ const CARS = [
     brand: "BMW", model: "320i Sedan M Sport", cat: "Sedan", segment: "D Segment", fuel: "Benzin",
     price: 4650000, hp: 170, torque: 250, acc: 7.6, top: 232, cons: 6.7, drive: "RWD", trans: "Otomatik",
     clr: 136, trunk: 480, seats: 5, comfort: 8, maint: 4, resale: 5,
-    img: "https://images.unsplash.com/photo-1555215695-3004980ad54e?auto=format&fit=crop&w=900&q=80",
+    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/2019_BMW_318d_SE_Automatic_2.0_Front.jpg/960px-2019_BMW_318d_SE_Automatic_2.0_Front.jpg",
     issues: ["bmw_oil_leaks"],
     weaknesses: [
       "80-100 bin km sonrasında külbütör kapak contası, yağ kütük contası ve plastik su flanşlarından sızıntı yapması",
@@ -831,7 +831,7 @@ const CARS = [
     brand: "Mercedes-Benz", model: "C 200 4MATIC AMG", cat: "Sedan", segment: "D Segment", fuel: "Benzin",
     price: 4950000, hp: 204, torque: 300, acc: 7.1, top: 241, cons: 6.8, drive: "AWD", clr: 135,
     trunk: 455, seats: 5, comfort: 9, maint: 4, resale: 5,
-    img: "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?auto=format&fit=crop&w=900&q=80",
+    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Mercedes-Benz_W206_IMG_5796.jpg/960px-Mercedes-Benz_W206_IMG_5796.jpg",
     issues: ["mercedes_m274"],
     weaknesses: [
       "M274 motorda elektronik termostat arızası ve hararet göstergesi dalgalanması",
@@ -846,7 +846,7 @@ const CARS = [
     brand: "Audi", model: "A4 Sedan 40 TDI quattro", cat: "Sedan", segment: "D Segment", fuel: "Dizel",
     price: 4500000, hp: 204, torque: 400, acc: 6.9, top: 244, cons: 5.4, drive: "AWD", clr: 140,
     trunk: 460, seats: 5, comfort: 8, maint: 3, resale: 4,
-    img: "https://images.unsplash.com/photo-1603584173870-7f23fdae1b7a?auto=format&fit=crop&w=900&q=80",
+    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Audi_A4_40_TFSI_B9_FL_Ibis_White_%282%29.jpg/960px-Audi_A4_40_TFSI_B9_FL_Ibis_White_%282%29.jpg",
     issues: ["dpf_clog"],
     weaknesses: [
       "Şehir içi kısa mesafelerde dizel partikül filtresi (DPF) tıkanma ve fan açma şikâyeti",
@@ -861,7 +861,7 @@ const CARS = [
     brand: "BMW", model: "520i Sedan M Sport", cat: "Sedan", segment: "E Segment", fuel: "Benzin",
     price: 7200000, hp: 208, torque: 330, acc: 7.5, top: 235, cons: 6.8, drive: "RWD", trans: "Otomatik",
     clr: 140, trunk: 520, seats: 5, comfort: 10, maint: 4, resale: 5,
-    img: "https://images.unsplash.com/photo-1556189250-72ba954cfc2b?auto=format&fit=crop&w=900&q=80",
+    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/BMW_G60_520i_1X7A2443.jpg/960px-BMW_G60_520i_1X7A2443.jpg",
     issues: ["bmw_oil_leaks"],
     weaknesses: [
       "5.06 metrelik devasa boyutu sebebiyle dar sokaklarda ve standart kapalı otoparklarda park zahmeti",
@@ -876,7 +876,7 @@ const CARS = [
     brand: "Mercedes-Benz", model: "E 200 Exclusive", cat: "Sedan", segment: "E Segment", fuel: "Benzin",
     price: 7800000, hp: 204, torque: 320, acc: 7.5, top: 240, cons: 7.0, drive: "RWD", trans: "Otomatik",
     clr: 140, trunk: 540, seats: 5, comfort: 10, maint: 4, resale: 5,
-    img: "https://images.unsplash.com/photo-1563720223185-11003d516935?auto=format&fit=crop&w=900&q=80",
+    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Mercedes-Benz_W214_1X7A1841.jpg/960px-Mercedes-Benz_W214_1X7A1841.jpg",
     issues: ["mercedes_m274"],
     weaknesses: [
       "M274 motor elektronik termostat ve su pompası arızası riski",
@@ -891,7 +891,7 @@ const CARS = [
     brand: "Volvo", model: "XC60 B5 AWD Plus", cat: "SUV", segment: "D-SUV", fuel: "Hibrit",
     price: 5800000, hp: 250, torque: 350, acc: 6.9, top: 180, cons: 7.5, drive: "AWD", clr: 216,
     trunk: 483, seats: 5, comfort: 9, maint: 4, resale: 4,
-    img: "https://images.unsplash.com/photo-1617469767053-d3b523a0b982?auto=format&fit=crop&w=900&q=80",
+    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/2018_Volvo_XC60_R-Design_D5_P-Pulse_2.0_Front.jpg/960px-2018_Volvo_XC60_R-Design_D5_P-Pulse_2.0_Front.jpg",
     issues: ["fiat_rattle"],
     weaknesses: [
       "Maksimum sürat güvenlik politikası gereği 180 km/s ile fabrikasyon sınırlandırılmıştır",
@@ -906,7 +906,7 @@ const CARS = [
     brand: "Ford", model: "Mustang GT 5.0 V8 Fastback", cat: "Coupe", segment: "Spor Coupe", fuel: "Benzin",
     price: 6500000, hp: 446, torque: 540, acc: 4.9, top: 250, cons: 12.4, drive: "RWD", clr: 135,
     trunk: 382, seats: 4, comfort: 6, maint: 3, resale: 4,
-    img: "https://images.unsplash.com/photo-1584345604476-8ec5e12e42dd?auto=format&fit=crop&w=900&q=80",
+    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Seventh_generation_2024_Ford_Mustang_%28cropped%29.jpg/960px-Seventh_generation_2024_Ford_Mustang_%28cropped%29.jpg",
     issues: ["fiat_rattle"],
     weaknesses: [
       "5.0 litre devasa silindir hacmi sebebiyle astronomik yıllık MTV vergisi",
@@ -921,7 +921,7 @@ const CARS = [
     brand: "Lexus", model: "ES 300h Exclusive", cat: "Sedan", segment: "E Segment", fuel: "Hibrit",
     price: 5700000, hp: 218, torque: 221, acc: 8.9, top: 180, cons: 5.3, drive: "FWD", clr: 150,
     trunk: 454, seats: 5, comfort: 10, maint: 3, resale: 4,
-    img: "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=900&q=80",
+    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Lexus_ES_350_%28GSZ10%29_IMG_4332.jpg/960px-Lexus_ES_350_%28GSZ10%29_IMG_4332.jpg",
     issues: ["toyota_cvt_drone"],
     weaknesses: [
       "Sürüş karakteri tamamen konfor ve sakinlik odaklıdır; BMW gibi sportif sürüş zevki arayanları tatmin etmez",
@@ -938,7 +938,7 @@ const CARS = [
     brand: "Mercedes-Benz", model: "S 450 4MATIC Uzun", cat: "Sedan", segment: "F Segment", fuel: "Benzin",
     price: 17500000, hp: 381, torque: 500, acc: 5.1, top: 250, cons: 8.8, drive: "AWD", clr: 145,
     trunk: 550, seats: 5, comfort: 10, maint: 5, resale: 4,
-    img: "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?auto=format&fit=crop&w=900&q=80",
+    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Mercedes-Benz_W223_IMG_3951.jpg/960px-Mercedes-Benz_W223_IMG_3951.jpg",
     issues: ["mercedes_airmatic"],
     weaknesses: [
       "Airmatic havalı süspansiyon körüklerinin 6-8 yıl sonra mikro kaçak yapma ve pahalı onarım riski",
@@ -953,7 +953,7 @@ const CARS = [
     brand: "BMW", model: "M3 Competition M xDrive", cat: "Sedan", segment: "D-Performans", fuel: "Benzin",
     price: 14200000, hp: 530, torque: 650, acc: 3.5, top: 290, cons: 10.2, drive: "AWD", clr: 125,
     trunk: 480, seats: 5, comfort: 6, maint: 5, resale: 4,
-    img: "https://images.unsplash.com/photo-1580273916550-e323be2ae537?auto=format&fit=crop&w=900&q=80",
+    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/BMW_M3_Competition_%28G80%29_IMG_4041.jpg/960px-BMW_M3_Competition_%28G80%29_IMG_4041.jpg",
     issues: ["dsg_wet"],
     weaknesses: [
       "Sert yarış süspansiyonu ve düşük yanaklı pist lastikleri kasislerde çok sert sarsar",
@@ -968,7 +968,7 @@ const CARS = [
     brand: "Porsche", model: "911 Carrera S (992.2)", cat: "Coupe", segment: "Spor Coupe", fuel: "Benzin",
     price: 16500000, hp: 450, torque: 530, acc: 3.7, top: 308, cons: 10.4, drive: "RWD", clr: 115,
     trunk: 132, seats: 4, comfort: 7, maint: 5, resale: 5,
-    img: "https://images.unsplash.com/photo-1614162692292-7ac56d7f7f1e?auto=format&fit=crop&w=900&q=80",
+    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Porsche_992_Carrera_S_coupe_IMG_5832.jpg/960px-Porsche_992_Carrera_S_coupe_IMG_5832.jpg",
     issues: ["fiat_rattle"],
     weaknesses: [
       "Çok alçak ön tampon burun yapısı sebebiyle dik kasislerde ön lift sistemi (burun kaldırma) gerektirmesi",
@@ -983,7 +983,7 @@ const CARS = [
     brand: "Porsche", model: "Taycan 4S", cat: "Sedan", segment: "E Segment", fuel: "Elektrik",
     price: 11800000, hp: 598, torque: 710, acc: 3.7, top: 250, cons: 19.5, drive: "AWD", clr: 128,
     trunk: 407, seats: 4, comfort: 8, maint: 4, resale: 3, range: 560,
-    img: "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=900&q=80",
+    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/2020_Porsche_Taycan_4S_79kWh_Front.jpg/960px-2020_Porsche_Taycan_4S_79kWh_Front.jpg",
     issues: ["ev_winter_range"],
     weaknesses: [
       "Elektrikli lüks araçlarda ikinci el değer kaybı benzinli 911'e kıyasla çok daha hızlıdır",
@@ -998,7 +998,7 @@ const CARS = [
     brand: "Volvo", model: "XC90 T8 Recharge Plug-in Ultimate", cat: "SUV", segment: "E-SUV", fuel: "Plug-in Hibrit",
     price: 9200000, hp: 455, torque: 709, acc: 5.4, top: 180, cons: 2.1, drive: "AWD", clr: 238,
     trunk: 640, seats: 7, comfort: 10, maint: 4, resale: 4, range: 73,
-    img: "https://images.unsplash.com/photo-1617469767053-d3b523a0b982?auto=format&fit=crop&w=900&q=80",
+    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Volvo_XC90_T8_AWD_Plug-in_Hybrid_Plus_%28II%2C_2._Facelift%29_%E2%80%93_f_03102025.jpg/960px-Volvo_XC90_T8_AWD_Plug-in_Hybrid_Plus_%28II%2C_2._Facelift%29_%E2%80%93_f_03102025.jpg",
     issues: ["fiat_rattle"],
     weaknesses: [
       "Elektrikli batarya bittiğinde ağır 7 kişilik SUV gövdesiyle benzin tüketiminin 9.5 - 11 litreye çıkması",
@@ -1013,7 +1013,7 @@ const CARS = [
     brand: "BMW", model: "X5 xDrive40i M Sport", cat: "SUV", segment: "E-SUV", fuel: "Benzin",
     price: 11500000, hp: 381, torque: 520, acc: 5.4, top: 250, cons: 9.2, drive: "AWD", clr: 214,
     trunk: 650, seats: 5, comfort: 9, maint: 5, resale: 4,
-    img: "https://images.unsplash.com/photo-1555215695-3004980ad54e?auto=format&fit=crop&w=900&q=80",
+    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/BMW_G05_45e_IMG_3714.jpg/960px-BMW_G05_45e_IMG_3714.jpg",
     issues: ["bmw_oil_leaks"],
     weaknesses: [
       "Yüksek MTV, kasko ve periyodik yetkili servis bakım faturaları",
@@ -1028,7 +1028,7 @@ const CARS = [
     brand: "Audi", model: "RS 6 Avant Performance", cat: "Station Wagon", segment: "E-Performans", fuel: "Benzin",
     price: 19500000, hp: 630, torque: 850, acc: 3.4, top: 305, cons: 12.5, drive: "AWD", clr: 125,
     trunk: 565, seats: 5, comfort: 9, maint: 5, resale: 4,
-    img: "https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?auto=format&fit=crop&w=900&q=80",
+    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/2021_Audi_RS6_Avant_in_Nardo_Gray%2C_front_right.jpg/960px-2021_Audi_RS6_Avant_in_Nardo_Gray%2C_front_right.jpg",
     issues: ["dsg_wet"],
     weaknesses: [
       "Şehir içi agresif kullanımda 16 - 21 litreye ulaşan süper spor yakıt tüketimi",
@@ -1043,7 +1043,7 @@ const CARS = [
     brand: "Land Rover", model: "Defender 110 D300 HSE", cat: "Arazi (4x4)", segment: "Lüks Arazi", fuel: "Dizel",
     price: 12500000, hp: 300, torque: 650, acc: 7.0, top: 191, cons: 9.0, drive: "4x4", clr: 291,
     trunk: 857, seats: 5, comfort: 9, maint: 5, resale: 4,
-    img: "https://images.unsplash.com/photo-1551830820-330a71b99659?auto=format&fit=crop&w=900&q=80",
+    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Land_Rover_Defender_110_D40_SE_L663_Pangea_Green_%281%29_%28cropped%29.jpg/960px-Land_Rover_Defender_110_D40_SE_L663_Pangea_Green_%281%29_%28cropped%29.jpg",
     issues: ["landrover_air_elec"],
     weaknesses: [
       "Karmaşık elektronik sensör ve havalı süspansiyon arıza bildirimleri",
@@ -1060,7 +1060,7 @@ const CARS = [
     brand: "Land Rover", model: "Range Rover P530 Autobiography", cat: "SUV", segment: "Ultra Lüks SUV", fuel: "Benzin",
     price: 24500000, hp: 530, torque: 750, acc: 4.6, top: 250, cons: 12.0, drive: "AWD", clr: 295,
     trunk: 818, seats: 5, comfort: 10, maint: 5, resale: 4,
-    img: "https://images.unsplash.com/photo-1519641471654-76ce0107ad1b?auto=format&fit=crop&w=900&q=80",
+    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/2022_Land_Rover_Range_Rover_SE_P440e_AWD_Automatic_3.0_Front.jpg/960px-2022_Land_Rover_Range_Rover_SE_P440e_AWD_Automatic_3.0_Front.jpg",
     issues: ["landrover_air_elec"],
     weaknesses: [
       "Airmatic süspansiyon ve elektronik modüllerin garanti sonrası yüksek bakım hassasiyeti",
@@ -1075,7 +1075,7 @@ const CARS = [
     brand: "Ferrari", model: "296 GTB Assetto Fiorano", cat: "Süper Spor", segment: "Egzotik", fuel: "Plug-in Hibrit",
     price: 39000000, hp: 830, torque: 740, acc: 2.9, top: 330, cons: 6.4, drive: "RWD", clr: 105,
     trunk: 150, seats: 2, comfort: 6, maint: 5, resale: 5,
-    img: "https://images.unsplash.com/photo-1592198084033-aade902d1aae?auto=format&fit=crop&w=900&q=80",
+    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/2022_Ferrari_296_%28cropped%29.jpg/960px-2022_Ferrari_296_%28cropped%29.jpg",
     issues: ["fiat_rattle"],
     weaknesses: [
       "Sadece 105 mm yerden yükseklik sebebiyle dik rampalı otoparklara ve kasisli sokaklara kesinlikle giremez",
@@ -1090,7 +1090,7 @@ const CARS = [
     brand: "Lamborghini", model: "Urus SE Plug-in Hybrid", cat: "SUV", segment: "Süper SUV", fuel: "Plug-in Hibrit",
     price: 44000000, hp: 800, torque: 950, acc: 3.4, top: 312, cons: 7.0, drive: "AWD", clr: 250,
     trunk: 616, seats: 5, comfort: 8, maint: 5, resale: 5,
-    img: "https://images.unsplash.com/photo-1544829099-b9a0c07fad1a?auto=format&fit=crop&w=900&q=80",
+    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Lamborghini_Urus_SE_DSC_8524.jpg/960px-Lamborghini_Urus_SE_DSC_8524.jpg",
     issues: ["dsg_wet"],
     weaknesses: [
       "Astronomik kasko ve yıllık vergi giderleri",
